@@ -1,0 +1,1 @@
+config:x86:x86_64:generic:linux:gcc 5.5.0 (Ubuntu 5.5.0-12ubuntu1~14.04) 20171010:--enable-gpl --enable-shared --prefix=/home/zilong/WorkSpace/disk0/ffmpeg/libs

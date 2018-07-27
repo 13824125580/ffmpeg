@@ -1,0 +1,14 @@
+prefix=/home/zilong/WorkSpace/disk0/ffmpeg/libs
+exec_prefix=${prefix}
+libdir=/home/zilong/WorkSpace/disk0/ffmpeg/libs/lib
+includedir=/home/zilong/WorkSpace/disk0/ffmpeg/libs/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 56.14.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -pthread -lva -lva-drm -lva -lva-x11 -lX11 -lm -lva
+Cflags: -I${includedir}
